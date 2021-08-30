@@ -1,13 +1,261 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+#title {
+  background-color: white;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  height: 100%;
+  margin: 0;
+}
+.middleContainer {
+  /* background-color: rgba(134, 168, 230, 0.514); */
+  /* background-color: rgba(134, 230, 182, 0.514); */
+  /* background-color: rgba(94, 206, 137, 0.514); */
+  background-color: rgba(230, 196, 134, 0.514);
+  padding: 5%;
+  border: 5%;
+  max-width: 100%;
+}
+.navbar {
+  padding: 2rem;
+  background-color: rgba(238, 241, 241, 0.438);
+  /* position: fixed; */
+}
+.nav-link {
+  color: black;
+}
+.nav-item a {
+  color: black;
+  font-family: "Crimson Text", serif;
+  font-size: 20px;
+}
+.nav-item a:hover {
+  color: rgba(175, 139, 38, 0.911);
+}
+.title {
+  font-family: "MuseoModerno";
+  color: black;
+}
+.intro {
+  text-align: left;
+}
+@media (max-width: 768px) {
+  .intro {
+    text-align: center;
+  }
+}
+@media (max-width: 630px) {
+  .add {
+    width: 300px;
+  }
+  .added {
+    width: 300px;
+  }
+}
+.question {
+  font-size: 4rem;
+}
+.desc {
+  color: rgb(255, 255, 255);
+  color: rgb(5, 5, 5);
+
+  padding: 2%;
+  font-family: "Crimson Text", serif;
+}
+.desc a {
+  color: rgba(97, 96, 93, 0.644);
+  text-decoration: none;
+}
+.desc a:hover {
+  color: rgba(110, 104, 84, 0.644);
+  font-weight: bold;
+}
+.row {
+  padding: 2% 5%;
+}
+
+.add :hover {
+  box-shadow: 0 19.8px 9.2px rgba(0, 0, 0, 0.2),
+    0 19.7px 19.3px rgba(60, 66, 80, 0.3), 0 12.5px 10px rgba(42, 56, 102, 0.2),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.1),
+    0 31.8px 33.4px rgba(187, 175, 128, 0.65), 0 25px 20px rgba(0, 0, 0, 0.3);
+
+  background-color: rgba(238, 237, 228, 0.952);
+
+  /* this to move upwards */
+  transform: translate(0, -5px);
+}
+.added {
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+  /* background-color: rgba(204, 203, 198, 0.952); */
+  background-color: rgba(207, 187, 157, 0.972);
+}
+.bottomContainer {
+  padding: 5%;
+  text-align: center;
+}
+.bottomContainer a {
+  margin: 0 1%;
+}
+.forgot {
+  padding: 15px;
+  /* border: 5px; */
+  color: #ffffff;
+}
+.forgot a {
+  color: rgba(41, 41, 40, 0.911);
+  text-decoration: none;
+}
+.forgot a:hover {
+  color: rgba(98, 98, 78, 0.911);
+  font-weight: bold;
+}
+/* CARD HEADER */
+.screen {
+  margin: 1% 2%;
+}
+.centered {
+  padding-top: 3%;
+  display: block;
+  text-align: center;
+  margin: 30px auto;
+}
+.thecard {
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 8.3px 17.9px rgba(0, 0, 0, 0.072), 0 20.8px 21.4px rgba(0, 0, 0, 0.086),
+    0 20px 10px rgba(0, 0, 0, 0.12);
+  margin: 20px;
+}
+.cardbody {
+  background-color: rgba(231, 217, 191, 0.514);
+}
+.form-check-input {
+  color: rgba(230, 196, 134, 0.514);
+}
+#recommendations {
+  background-color: rgba(230, 196, 134, 0.514);
+  height: 100%;
+}
+#suggestion {
+  padding-top: 1%;
+  padding-left: 4%;
+}
+#suggestion .name {
+  color: rgba(141, 135, 126, 0.794);
+  /* color: rgba(212, 173, 101, 0.65); */
+}
+.abs {
+  width: "20%";
+}
+.person {
+  width: 100%;
+  padding-bottom: 5px;
+  padding-top: 10px;
+  border-bottom: 1px solid rgba(77, 74, 74, 0.849);
+  border-top: 1px solid rgba(77, 74, 74, 0.849);
+}
+.left-rw {
+  height: 100%;
+  background-color: white;
+  padding: 5px;
+  border-radius: 4px;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+  padding-bottom: 30px;
+}
+.gift-item {
+  max-width: 360px;
+  min-height: 100px;
+  /* max-height: 500px; */
+  position: relative;
+  object-fit: none;
+  margin-bottom: 10px;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+.suggestion-list {
+  background-color: white;
+  margin: 15px;
+  border-radius: 4px;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+  overflow: scroll;
+  height: 750px;
+}
+.text-bottom {
+  position: relative;
+  left: 2%;
+  top: 85%;
+  font-weight: 600;
+  font-size: 15px;
+  /* color: rgba(164, 221, 190, 0.952); */
+  color: rgba(152, 231, 185, 0.952);
+}
+.item-inner {
+  background-color: rgba(34, 32, 32, 0.335);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* INTERESTS RATING BAR */
+/* CHARACTERISTICS  */
+.rating-bar-outer#outer {
+  width: 150px;
+  height: 15px;
+  background-color: rgba(206, 82, 77, 0.904);
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  box-shadow: 0 6.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6px 5.3px rgba(17, 17, 17, 0.048), 0 12.5px 30px rgba(0, 0, 0, 0.06),
+    0 15.3px 17.9px rgba(0, 0, 0, 0.072), 0 20.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 18px 60px rgba(0, 0, 0, 0.12);
+  color: rgba(206, 188, 188, 0);
+}
+.rating-bar-inner#inner {
+  width: 50%;
+  height: 100%;
+  /* background-color: rgba(119, 223, 183, 0.842); */
+  background-color: rgba(216, 198, 118, 0.911);
+  border-radius: 5px;
+}
+
+.rating-bar-outer#outer:hover {
+  width: 205px;
+  height: 22px;
+  /* color: rgba(20, 19, 19); */
+  color: rgb(34, 70, 27);
+}
+
+/* Tooltip */
+/* Tooltip */
+.abs::before,
+.abs::after {
+  position: absolute;
+  height: 40px;
+  transform: translateX(-80%) translateY(50%);
+}
+.abs:hover::after {
+  content: attr(data-tooltip);
+  color: white;
+  width: max-content;
+  padding: 0.5rem;
+  background-color: black;
+  z-index: 4;
+}
+.rating {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 13px;
 }

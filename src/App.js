@@ -1,24 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
+import Main from "./Main"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import  Fontawesomeicon  from './components/Fontawesomicons'
+import { Provider } from 'react-redux'
+import {createStore, combineReducers, applyMiddleware} from "redux"
+import selectedOptionReducer from "./store/reducers/selectedOptions"
 
 function App() {
+
+  const rootReducer = combineReducers({
+    selectedOption:  selectedOptionReducer,
+  })
+  const store = createStore(rootReducer)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Provider store={store}>
+      <div className="App">
+          <Main/>
+      </div>
+    </Provider>
   );
 }
 
