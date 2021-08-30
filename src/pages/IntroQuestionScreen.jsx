@@ -56,7 +56,7 @@ const IntroQuestionScreen = (props) => {
                 <div className="centered" >
                         {/* <FontAwesomeIcon icon="arrow-circle-right" color="black" size="3x"   /> */}
                         {/* <FontAwesomeIcon icon="spinner" spin /> */}
-                        {confirmSecond() === false ? (<p>{selected["gender"]}</p>):(<p>nope</p>) }
+                        {/* {confirmSecond() === false ? (<p>{selected["gender"]}</p>):(<p>nope</p>) } */}
                         <button disabled={confirmSecond()} onClick={()=>history.push("/gifts")}   className="btn btn-outline-success">Next ➣ </button>
 
                 </div>
