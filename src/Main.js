@@ -18,10 +18,10 @@ const Main = () =>{
            {/* <MainIntro/> */}
 
            <Switch>
-                <Route path="Genuine/" exact>
+                <Route path="/" exact>
                  <MainIntro/>
                 </Route>
-                <Route path="Genuine/questions" exact>
+                <Route path="/questions" exact>
                  <IntroQuestionScreen/>
                 </Route>
                 <Route path="/gifts" exact>

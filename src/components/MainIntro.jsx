@@ -26,7 +26,7 @@ const MainIntro = ({navigation, route}) =>{
                 </div>
 
                 <div class="col-lg-6 add">
-                    <a href="Genuine/questions" >
+                    <a href="/questions" >
                     <img class="col-lg-6 added" src="/add500.png" />
                     </a>
                 </div>
