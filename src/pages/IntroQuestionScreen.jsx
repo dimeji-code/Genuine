@@ -38,7 +38,7 @@ const IntroQuestionScreen = (props) => {
     }
 
     return(
-        [
+        [ 
             id=="phase 1"?
             (       
              <div className="screen">
@@ -55,7 +55,6 @@ const IntroQuestionScreen = (props) => {
                 {questionList.map(qa => {return <QuestionCard description={qa.question} option={qa.answer} name={qa.questionName} />})}
                 <div className="centered" >
                         {/* <FontAwesomeIcon icon="arrow-circle-right" color="black" size="3x"   /> */}
-                        {/* <FontAwesomeIcon icon="spinner" spin /> */}
                         {/* {confirmSecond() === false ? (<p>{selected["gender"]}</p>):(<p>nope</p>) } */}
                         <button disabled={confirmSecond()} onClick={()=>history.push("/gifts")}   className="btn btn-outline-success">Next ➣ </button>
 

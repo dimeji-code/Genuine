@@ -16,7 +16,8 @@ body {
   max-width: 100%;
 }
 .navbar {
-  padding: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   background-color: rgba(238, 241, 241, 0.438);
   /* position: fixed; */
 }

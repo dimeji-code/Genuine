@@ -15,7 +15,7 @@ const MainIntro = ({navigation, route}) =>{
                     <h5 class="desc col-lg-6">
                     <a
                         href="#"
-                        >To use as a guest, click on the add icon.</a>
+                        >To use as a guest, click on the add icon</a>
                     </h5>
                 </div>
 
