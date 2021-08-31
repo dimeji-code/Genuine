@@ -1,6 +1,5 @@
 import React from 'react'
 import Nav from "react-bootstrap/Nav"
-
 import {
     BrowserRouter as Router,
     Switch,
@@ -27,7 +26,7 @@ const MainIntro = ({navigation, route}) =>{
 
                 <div class="col-lg-6 add">
                     <a href="/questions" >
-                    <img class="col-lg-6 added" src="/add500.png" />
+                    <img class="col-lg-6 added" src={process.env.PUBLIC_URL +"/add500.png"} />
                     </a>
                 </div>
 

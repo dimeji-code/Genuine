@@ -22,6 +22,7 @@ function App() {
   );
 }
 // "start": "react-scripts start",
+//   "homepage": "https://dimeji-code.github.io/Genuine",
 
 
 export default App;
