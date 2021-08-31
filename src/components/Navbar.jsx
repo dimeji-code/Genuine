@@ -5,7 +5,7 @@ const Navbar = () =>{
     return(
 
         <nav class="navbar navbar-light sticky-top" >
-        <a class="navbar-brand title" style={{fontSize:20,fontFamily:"MuseoModerno"}} href="/">genuine</a>
+        <a class="navbar-brand title" style={{fontSize:20,fontFamily:"MuseoModerno"}} href="/Genuine">genuine</a>
 
         <ul class="nav justify-content-end navOpt">
           <li class="nav-item">

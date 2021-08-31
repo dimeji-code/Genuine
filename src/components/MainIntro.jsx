@@ -1,11 +1,6 @@
 import React from 'react'
 import Nav from "react-bootstrap/Nav"
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-  } from "react-router-dom";
+import {Link} from "react-router-dom";
 
 const MainIntro = ({navigation, route}) =>{
 
@@ -25,9 +20,9 @@ const MainIntro = ({navigation, route}) =>{
                 </div>
 
                 <div class="col-lg-6 add">
-                    <a href="/questions" >
+                    <Link to="/questions" >
                     <img class="col-lg-6 added" src={process.env.PUBLIC_URL +"/add500.png"} />
-                    </a>
+                    </Link>
                 </div>
 
             </div>
