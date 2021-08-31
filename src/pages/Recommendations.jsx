@@ -3,6 +3,7 @@ import {useSelector} from "react-redux"
 import GiftItem from "../components/GiftItem"
 import GIFTS from "../data/gifts"
 import RatingBar from "../components/RatingBar"
+import DisclaimerCard from "../components/DisclaimerCard"
 
 const Recommendations = () =>{
     // console.log(GIFTS)
@@ -72,7 +73,8 @@ const Recommendations = () =>{
     return(
         <div id="recommendations">
                 <h3 id="suggestion">Suggestions for <span class="name">Recepient</span>.</h3>
-            <div class="row ">
+                <DisclaimerCard />
+            <div class="row">
                 <div class="col col-lg-3 col-md-3 col-sm-3 col-5 left-rw">
                    
                     <h3>Analytics</h3>

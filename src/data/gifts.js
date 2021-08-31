@@ -141,9 +141,57 @@ const GIFTS=[
      ),
      new Gift("Les Paul Guitar",
      "https://static.gibson.com/product-images/Epiphone/EPIEMA551/Honeyburst/front-banner-1600_900.png",
-     "",
+     "or any other instrument of your choice",
      1999.99,
      ["technology","music"]
+     ),
+     new Gift("Lava Lamp",
+     "https://images.unsplash.com/photo-1574882225022-5f45b99d4966?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80",
+     "Light up your room colorfully",
+     29.99,
+     ["technology","lamp"]
+     ),
+     new Gift("VGazer floating bulb",
+     "https://m.media-amazon.com/images/I/51N1Nd3u+ML._AC_SL1000_.jpg",
+     "Use science or sorcery to brighten your life",
+     69.99,
+     ["technology","lamp","aesthetic"]
+     ),
+     new Gift("Sports Jersey (Liverpool)",
+     "https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/default/0002/24/27b5eee2dfc7a1ea805b0b25862780b9702a6d1d.jpeg",
+     "Represent a stylish team",
+     199.99,
+     ["athletics","fashion"]
+     ),
+     new Gift("Blendjet",
+     "https://m.media-amazon.com/images/I/71R3exZUUVL._AC_SL1500_.jpg",
+     "Smoothie on the go",
+     64.99,
+     ["technology","appliance"]
+     ),
+     new Gift("Miseyo roller stamp",
+     "https://m.media-amazon.com/images/I/71s0wmGOvxL._AC_SL1500_.jpg",
+     "Cover sensitive information conveniently",
+     19.99,
+     ["household","appliance"]
+     ),
+     new Gift("Laptop",
+     "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/rfb-macbook-air-gold-select-201902?wid=1000&hei=1000&fmt=jpeg&qlt=95&.v=1548454547923",
+     "So much you can do with this one",
+     1599.99,
+     ["technology"]
+     ),
+     new Gift("Rollerblades",
+     "https://www.rollerblade.com/files/15390/_2000x2000r_07958600816_ZETRABLADE_PHOTO-PRIMARY_ANGLED_VIEW.jpg",
+     "CSkate through life",
+     219.99,
+     ["athletics"]
+     ),
+     new Gift("Desk Plants",
+     "https://refer.althemist.com/wp-content/uploads/2018/01/mapple-desk-planter_prod2.jpg",
+     "Add life to your desk",
+     59.99,
+     ["household","aesthetic"]
      ),
 
 
