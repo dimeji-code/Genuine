@@ -21,10 +21,10 @@ const Main = () =>{
                 <Route path="Genuine/" exact>
                  <MainIntro/>
                 </Route>
-                <Route path="Genuine/q" exact>
+                <Route path="/q" exact>
                  <IntroQuestionScreen/>
                 </Route>
-                <Route path="Genuine/gifts" exact>
+                <Route path="/gifts" exact>
                  <Recommendations/>
                 </Route>
            </Switch>
