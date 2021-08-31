@@ -15,16 +15,16 @@ const Main = () =>{
     return(
         <Router>
            <Navbar/>
-           <MainIntro/>
+           {/* <MainIntro/> */}
 
            <Switch>
-                <Route path="/" exact>
+                <Route path="Genuine/" exact>
                  <MainIntro/>
                 </Route>
-                <Route path="/q" exact>
+                <Route path="Genuine/q" exact>
                  <IntroQuestionScreen/>
                 </Route>
-                <Route path="/gifts" exact>
+                <Route path="Genuine/gifts" exact>
                  <Recommendations/>
                 </Route>
            </Switch>
