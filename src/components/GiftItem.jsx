@@ -8,7 +8,7 @@ const GiftItem = (props) =>{
             <div class="item-inner">
             <div class="card-img-overlay">
                 <h5 class="card-title">{props.name}</h5>
-                <p class="card-text"> {props.desc}</p>
+                <p class="card-text card-desc"> {props.desc}</p>
 
             </div>
             <div class="text-bottom">

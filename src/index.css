@@ -39,6 +39,7 @@ body {
 .intro {
   text-align: left;
 }
+
 @media (max-width: 768px) {
   .intro {
     text-align: center;
@@ -50,6 +51,9 @@ body {
   }
   .added {
     width: 300px;
+  }
+  .card-img-overlay p {
+    display: none;
   }
 }
 .question {
@@ -212,8 +216,8 @@ body {
 /* INTERESTS RATING BAR */
 /* CHARACTERISTICS  */
 .rating-bar-outer#outer {
-  width: 150px;
-  height: 15px;
+  width: 120px;
+  height: 12px;
   background-color: rgba(206, 82, 77, 0.904);
   margin-bottom: 10px;
   border-radius: 5px;
@@ -233,8 +237,8 @@ body {
 }
 
 .rating-bar-outer#outer:hover {
-  width: 205px;
-  height: 22px;
+  width: 130px;
+  height: 20px;
   /* color: rgba(20, 19, 19); */
   color: rgb(34, 70, 27);
 }

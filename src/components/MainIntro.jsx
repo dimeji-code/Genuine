@@ -2,7 +2,7 @@ import React from 'react'
 import Nav from "react-bootstrap/Nav"
 import {Link} from "react-router-dom";
 
-const MainIntro = ({navigation, route}) =>{
+const MainIntro = () =>{
 
     return(
         <div class="middleContainer">
@@ -14,7 +14,7 @@ const MainIntro = ({navigation, route}) =>{
                     </h4>
                     <h5 class="desc col-lg-6">
                     <a
-                        href="#"
+                        href=""
                         >To use as a guest, click on the add icon</a>
                     </h5>
                 </div>
