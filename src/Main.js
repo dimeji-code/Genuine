@@ -21,7 +21,7 @@ const Main = () =>{
                 <Route path="Genuine/" exact>
                  <MainIntro/>
                 </Route>
-                <Route path="/q" exact>
+                <Route path="Genuine/questions" exact>
                  <IntroQuestionScreen/>
                 </Route>
                 <Route path="/gifts" exact>
