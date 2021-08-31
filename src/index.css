@@ -47,13 +47,16 @@ body {
 }
 @media (max-width: 630px) {
   .add {
-    width: 300px;
+    width: 280px;
   }
   .added {
-    width: 300px;
+    width: 280px;
   }
   .card-img-overlay p {
     display: none;
+  }
+  .middleContainer {
+    margin: auto;
   }
 }
 .question {
