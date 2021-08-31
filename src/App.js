@@ -21,5 +21,7 @@ function App() {
     </Provider>
   );
 }
+// "start": "react-scripts start",
+
 
 export default App;

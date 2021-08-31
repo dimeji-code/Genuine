@@ -15,6 +15,8 @@ const Main = () =>{
     return(
         <Router>
            <Navbar/>
+           <MainIntro/>
+
            <Switch>
                 <Route path="/" exact>
                  <MainIntro/>
