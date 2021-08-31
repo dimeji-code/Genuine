@@ -7,9 +7,6 @@ body {
   margin: 0;
 }
 .middleContainer {
-  /* background-color: rgba(134, 168, 230, 0.514); */
-  /* background-color: rgba(134, 230, 182, 0.514); */
-  /* background-color: rgba(94, 206, 137, 0.514); */
   background-color: rgba(230, 196, 134, 0.514);
   padding: 5%;
   border: 5%;
@@ -48,6 +45,7 @@ body {
 @media (max-width: 630px) {
   .add {
     width: 280px;
+    margin: auto;
   }
   .added {
     width: 280px;
@@ -55,7 +53,9 @@ body {
   .card-img-overlay p {
     display: none;
   }
-  .middleContainer {
+  .intro {
+    text-align: center;
+    display: block;
     margin: auto;
   }
 }
@@ -80,7 +80,10 @@ body {
 .row {
   padding: 2% 5%;
 }
-
+/* .middleCont-right {
+  display: block;
+  margin: auto;
+} */
 .add :hover {
   box-shadow: 0 19.8px 9.2px rgba(0, 0, 0, 0.2),
     0 19.7px 19.3px rgba(60, 66, 80, 0.3), 0 12.5px 10px rgba(42, 56, 102, 0.2),

@@ -19,10 +19,12 @@ const MainIntro = () =>{
                     </h5>
                 </div>
 
-                <div class="col-lg-6 add">
+                <div class="col-lg-6 middleCont-right">
+                  <div class="add" >
                     <Link to="/questions" >
                     <img class="col-lg-6 added" src={process.env.PUBLIC_URL +"/add500.png"} />
                     </Link>
+                    </div>
                 </div>
 
             </div>
