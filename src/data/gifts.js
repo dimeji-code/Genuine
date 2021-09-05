@@ -193,6 +193,25 @@ const GIFTS=[
      59.99,
      ["household","aesthetic"]
      ),
+     new Gift("Soulfood sweatshirt: Zero Fatigue",
+     "https://freight.cargo.site/w/1200/i/c8ab96661b188881dbe40c098cb5d107edc0fd5e90b2668b31a49602d84c3de7/9.png",
+     "Shop at your favourite artists merch store",
+     55.00,
+     ["music","aesthetic","fashion"]
+     ),
+     new Gift("Zara: Best sellers collection",
+     "https://images.milledcdn.com/2020-09-01/ZAwIpiLjjknqVb2q/MQfZuJcPTfsd.jpeg",
+     "Women seem to love Zara",
+     88.00,
+     ["aesthetic","fashion"]
+     ),
+     new Gift("$25 gift card",
+     "https://thumbs.dreamstime.com/z/viersen-germany-july-view-apple-itunes-app-store-google-music-play-gift-voucher-cards-shelf-german-supermarket-194805830.jpg",
+     "Google play or itunes store gift card",
+     25.00,
+     ["music"]
+     ),
+     
 
 
      

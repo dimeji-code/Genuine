@@ -9,7 +9,7 @@ import {  useHistory } from "react-router-dom";
 const IntroQuestionScreen = (props) => {
     const [id, setId] = useState("phase 1")
     const gender = ["male", "female"];
-    const relationship=["parent","sibling", "close-friend","distant-relative","spouse/ partner"]
+    const relationship=["parent","sibling", "close-friend","distant-relative","spouse/ partner","child"]
     const selected = useSelector(state => state.selectedOption.choices)
     const history = useHistory()
     
@@ -42,8 +42,8 @@ const IntroQuestionScreen = (props) => {
             id=="phase 1"?
             (       
              <div className="screen">
-                 <QuestionCard description="Select Gender" option={gender} name="gender" />
-                 <QuestionCard description="Select relationship to recepient" option={relationship} name="relationship" />
+                 <QuestionCard description="Select gender of recipient" option={gender} name="gender" />
+                 <QuestionCard description="Select relationship to recipient" option={relationship} name="relationship" />
                  <div className="centered">
                  <button disabled={confirmFirst()} onClick={() => setId("phase 2")}  className="btn btn-outline-success">Next ➣ </button>
                  </div>

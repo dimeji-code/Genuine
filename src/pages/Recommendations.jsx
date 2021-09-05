@@ -72,7 +72,7 @@ const Recommendations = () =>{
     sortByBudget()
     return(
         <div id="recommendations">
-                <h3 id="suggestion">Suggestions for <span class="name">Recepient</span>.</h3>
+                <h3 id="suggestion">Suggestions for <span class="name">Recipient</span>.</h3>
                 <DisclaimerCard />
             <div class="row">
                 <div class="col col-lg-3 col-md-3 col-sm-3 col-5 left-rw">
