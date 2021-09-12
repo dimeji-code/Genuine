@@ -10,7 +10,7 @@ const About = () =>{
             <div className="card thecard2 lite">
                 <div className="card-title">
                     <h5>The perferct gift finder.</h5>
-                </div>
+                </div> 
                 <div className="card-body">
                 <p>✓ Find a suitable gift for a friend, relative or spouse.</p>
                 {/* <p>✓ Gifts are matched with labelled characteristics.</p> */}
