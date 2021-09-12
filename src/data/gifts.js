@@ -104,7 +104,7 @@ const GIFTS=[
      ["aesthetic"]
      ),
      new Gift("Airfryer",
-     "https://m.ninjakitchen.com/include/images/products/hero-DZ201WBKT.jpg",
+     "https://images.philips.com/is/image/philipsconsumer/10400fe518864b45b2e3ad1f01191d09?$jpglarge$&wid=1250",
      "Make frying easier.",
      179.99,
      ["technology"]
@@ -183,7 +183,7 @@ const GIFTS=[
      ),
      new Gift("Rollerblades",
      "https://www.rollerblade.com/files/15390/_2000x2000r_07958600816_ZETRABLADE_PHOTO-PRIMARY_ANGLED_VIEW.jpg",
-     "CSkate through life",
+     "Skate through life",
      219.99,
      ["athletics"]
      ),
@@ -210,6 +210,12 @@ const GIFTS=[
      "Google play or itunes store gift card",
      25.00,
      ["music"]
+     ),
+     new Gift("Lululemon Activewear",
+     "https://akns-images.eonline.com/eol_images/Entire_Site/2020817/rs_1200x1200-200917100917-1200_Ecomm-Lululemon-Ice_Dyed_Collection-gj.jpg?fit=around%7C1080:1080&output-quality=90&crop=1080:1080;center,top",
+     "",
+     80.00,
+     ["athletics", "fashion"]
      ),
      
 

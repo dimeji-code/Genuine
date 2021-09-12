@@ -1,8 +1,8 @@
 #title {
   background-color: white;
 }
-
-body {
+body,
+html {
   height: 100%;
   margin: 0;
 }
@@ -10,13 +10,12 @@ body {
   background-color: rgba(230, 196, 134, 0.514);
   padding: 5%;
   border: 5%;
-  max-width: 100%;
+  min-width: 100%;
 }
 .navbar {
   padding-left: 2rem;
   padding-right: 2rem;
   background-color: rgba(238, 241, 241, 0.438);
-  /* position: fixed; */
 }
 .nav-link {
   color: black;
@@ -33,10 +32,25 @@ body {
   font-family: "MuseoModerno";
   color: black;
 }
+.und {
+  text-decoration: underline;
+  text-align: center;
+}
+.lite {
+  background-color: rgb(189, 179, 146);
+  color: rgb(65, 61, 47);
+}
 .intro {
   text-align: left;
 }
-
+.gift-img {
+  width: 300px;
+  height: 300px;
+}
+.carousel-item {
+  height: 300px;
+  background-color: rgba(42, 40, 40, 0.767);
+}
 @media (max-width: 990px) {
   .intro {
     text-align: center;
@@ -125,12 +139,18 @@ body {
 /* CARD HEADER */
 .screen {
   margin: 1% 2%;
+  /* background-color: rgba(230, 196, 134, 0.514); */
 }
 .centered {
+  /* background-color: rgba(230, 196, 134, 0.514); */
+
   padding-top: 3%;
   display: block;
   text-align: center;
   margin: 30px auto;
+}
+.bottom {
+  bottom: 0;
 }
 .thecard {
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
@@ -138,6 +158,23 @@ body {
     0 8.3px 17.9px rgba(0, 0, 0, 0.072), 0 20.8px 21.4px rgba(0, 0, 0, 0.086),
     0 20px 10px rgba(0, 0, 0, 0.12);
   margin: 20px;
+}
+.thecard2 {
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 8.3px 17.9px rgba(0, 0, 0, 0.072), 0 20.8px 21.4px rgba(0, 0, 0, 0.086),
+    0 20px 10px rgba(0, 0, 0, 0.12);
+  margin: 2% 7%;
+  padding: 1%;
+}
+.thecard3 {
+  background-color: #ffffff;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 8.3px 17.9px rgba(0, 0, 0, 0.072), 0 20.8px 21.4px rgba(0, 0, 0, 0.086),
+    0 20px 10px rgba(0, 0, 0, 0.12);
+  margin: 2% 7%;
+  padding: 0.5%;
 }
 .cardbody {
   background-color: rgba(231, 217, 191, 0.514);
@@ -281,4 +318,23 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 13px;
+}
+/* TRENDING */
+.page {
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  padding: 2%;
+  background-color: rgba(230, 196, 134, 0.514);
+}
+.img-item {
+  max-width: 80px;
+  max-height: 80px;
+  object-fit: cover;
+}
+.text-item {
+  margin-left: 20px;
+}
+.highlights {
+  padding: 0 18%;
 }

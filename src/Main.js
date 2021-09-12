@@ -1,8 +1,9 @@
 import React from 'react'
-// import Button from "react-bootstrap/Button"
 import Navbar from "./components/Navbar"
 import MainIntro from "./components/MainIntro"
 import IntroQuestionScreen from "./pages/IntroQuestionScreen"
+import About from "./pages/About"
+import Trending from "./pages/Trending"
 import Recommendations from "./pages/Recommendations"
 import {
     BrowserRouter as Router,
@@ -20,11 +21,15 @@ const Main = () =>{
                 <Route exact path="/Genuine"  >
                     <MainIntro />
                 </Route>
-                 
+                <Route exact path="/about"  >
+                    <About />
+                </Route>  
+                <Route exact path="/trending"  >
+                    <Trending />
+                </Route>              
                 <Route exact path="/questions"  >
-                <IntroQuestionScreen/>
+                    <IntroQuestionScreen/>
                 </Route>
-                 
                 <Route exact path="/gifts"  component={Recommendations}/>
            </Switch>
 

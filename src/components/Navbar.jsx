@@ -9,11 +9,11 @@ const Navbar = () =>{
 
         <ul class="nav justify-content-end navOpt">
           <li class="nav-item">
-            <a class="nav-link" style={{fontSize:20,fontFamily:"Crimson Text, serif"}} href=""> about</a>
+            <a class="nav-link" style={{fontSize:20,fontFamily:"Crimson Text, serif"}} href="/about"> about</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" style={{fontSize:20,fontFamily:"Crimson Text, serif"}} href="">trending</a>
+            <a class="nav-link" style={{fontSize:20,fontFamily:"Crimson Text, serif"}} href="/trending">trending</a>
           </li>
         </ul>
       </nav> 
