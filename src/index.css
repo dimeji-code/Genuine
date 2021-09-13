@@ -20,13 +20,16 @@ html {
 .nav-link {
   color: black;
 }
+
 .nav-item a {
   color: black;
   font-family: "Crimson Text", serif;
   font-size: 20px;
 }
-.nav-item a:hover {
+.nav-item a:hover,
+.nav-item a:active {
   color: rgba(175, 139, 38, 0.911);
+  background-color: rgba(175, 139, 38, 0.911);
 }
 .title {
   font-family: "MuseoModerno";
@@ -126,12 +129,9 @@ html {
 .forgot {
   padding: 15px;
   /* border: 5px; */
-  color: #ffffff;
+  color: #161515;
 }
-.forgot a {
-  color: rgba(41, 41, 40, 0.911);
-  text-decoration: none;
-}
+
 .forgot a:hover {
   color: rgba(98, 98, 78, 0.911);
   font-weight: bold;

@@ -13,9 +13,7 @@ const MainIntro = () =>{
                     Find popular suggestions or get unique gift ideas for that special someone.
                     </h4>
                     <h5 class="desc col-lg-6">
-                    <a
-                        href=""
-                        >To use as a guest, click on the add icon</a>
+                    <a >To use as a guest, click on the add icon</a>
                     </h5>
                 </div>
 
@@ -38,9 +36,7 @@ const MainIntro = () =>{
             <button disabled={true} class="btn btn-outline-dark">Signup</button>
           </a>
           <p class="forgot">
-            <a
-              href=""
-              >Forgot email or password?</a>
+            <a>Forgot email or password?</a>
           </p>
         </div>
         </div>
