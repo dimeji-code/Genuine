@@ -1,5 +1,6 @@
 import React from 'react'
 import Nav from "react-bootstrap/Nav"
+import {Link} from "react-router-dom";
 
 const Navbar = () =>{
     return(
@@ -9,11 +10,13 @@ const Navbar = () =>{
 
         <ul class="nav justify-content-end navOpt">
           <li class="nav-item">
-            <a class="nav-link" style={{fontSize:20,fontFamily:"Crimson Text, serif"}} href="./about"> about</a>
+          {/* <a class="nav-link" style={{fontSize:20,fontFamily:"Crimson Text, serif"}} href="/about"> about</a> */}
+          <Link class="nav-link" style={{fontSize:20,fontFamily:"Crimson Text, serif"}} to="/about"> about</Link>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" style={{fontSize:20,fontFamily:"Crimson Text, serif"}} href="./trending">trending</a>
+          {/* <a class="nav-link" style={{fontSize:20,fontFamily:"Crimson Text, serif"}} href="/trending">trending</a> */}
+          <Link class="nav-link" style={{fontSize:20,fontFamily:"Crimson Text, serif"}} to="/trending">trending</Link>
           </li>
         </ul>
       </nav> 
