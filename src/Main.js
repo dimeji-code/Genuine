@@ -21,10 +21,10 @@ const Main = () =>{
                 <Route exact path="/Genuine"  >
                     <MainIntro />
                 </Route>
-                <Route exact path="/about"  >
+                <Route exact path="/Genuine/about"  >
                     <About />
                 </Route>  
-                <Route exact path="/trending"  >
+                <Route exact path="/Genuine/trending"  >
                     <Trending />
                 </Route>              
                 <Route exact path="/questions"  >
